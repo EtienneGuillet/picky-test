@@ -2,6 +2,32 @@
 
 ## Assessment Instructions
 
+### How to install
+
+1. Clone the repository
+
+2. Run the command
+
+```
+yarn install
+```
+
+then run
+
+```
+yarn build
+```
+
+and to conclude run
+
+```
+yarn start
+```
+
+### Additional information
+
+I took the liberty to add data to the provided json to display list of elements
+
 ### Overview
 
 Your task is to create a discussion page using either React.js or Next.js. This page will display discussion content using provided JSON data. The design and features are up to your creativity but should ensure a good user experience across different devices.
