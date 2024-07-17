@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .content-container {
+    @apply max-w-[1280px] w-full mx-auto px-6;
+  }
+}
+
+.hover-underline-animation {
+  @apply inline-block relative;
+}
+
+.hover-underline-animation::after {
+  @apply dark:bg-white bg-pink content-[''] absolute w-full scale-x-0 h-[2px] bottom-0 left-0 origin-left transition-all ease-in-out;
+}
+
+.hover-underline-animation:hover::after {
+  @apply scale-x-100;
+}
